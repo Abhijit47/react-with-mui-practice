@@ -4,6 +4,8 @@ import AutoComplete from './Components/AutoComplete';
 import Buttons from './Components/Buttons';
 import ButtonsGroups from './Components/ButtonsGroup';
 import Cards from './Components/Cards';
+import IconsVariants from './Components/IconsVariants';
+import AlertVariants from './Components/AlertVariants';
 
 const App = () => {
   return (
@@ -16,6 +18,10 @@ const App = () => {
       <ButtonsGroups />
       <hr />
       <Cards />
+      <hr />
+      <IconsVariants />
+      <hr />
+      <AlertVariants />
     </>
   );
 };
